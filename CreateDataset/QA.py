@@ -43,5 +43,5 @@ def QA(api_key: str, questionamount: str) -> str:
     return 'Completed Task'
 
 if __name__ == '__main__':
-    response = QA('AIzaSyCDPZXc_8BRr5aLpIQ6r_x4j4JqTukifeY', '100') ## I tried prompting 200 then 100 but it doesn't generate up to that, welp.
+    response = QA('your API key', '100') ## I tried prompting 200 then 100 but it doesn't generate up to that, welp.
     print(response)
